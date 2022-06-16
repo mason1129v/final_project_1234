@@ -1,0 +1,16 @@
+$(function(){
+	$("#wu1").click(function(){
+		$("#wu2").slideToggle("slow");
+	});});
+$(function(){
+	$("#lin1").click(function(){
+		$("#lin2").slideToggle("slow");
+	});});
+$(function(){
+	$("#tang1").click(function(){
+		$("#tang2").slideToggle("slow");
+	});});	
+$(function(){
+	$("#chang1").click(function(){
+		$("#chang2").slideToggle("slow");
+	});});

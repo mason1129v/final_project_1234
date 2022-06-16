@@ -1,0 +1,135 @@
+.member_body{    
+    margin: 0;
+    background-image: url(../img/member_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "tetai-2";
+}
+.member_container{
+    position: relative;
+    margin:250px auto;
+    width: 45%;
+    border-style:double;
+    border-color: antiquewhite;
+    border-width: 10px; ;
+    backdrop-filter: blur(3px);
+    background: hsla(0,0%,100%,.3); 
+    display: flex;
+}
+.member_container::before {
+    content: '';
+    position: absolute;
+    top:0; right:0; bottom:0; left:0;
+    filter: blur(30px);
+    z-index: -1;
+    margin: -30px;
+}
+/*會員資料*/
+.member_box{
+    position: relative;
+    margin: 30px auto;
+    width: 80%;
+}
+.member_text{
+    position: relative;
+    color: #9b4545;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.member_detail{
+    position: relative;
+    margin: 0px auto;
+    width: 80%;
+    height: 350px;
+}
+.m_table{
+    margin: 30px auto;
+}
+.wrap_detail{
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.input {
+    width: 250px;
+    border: none;
+    border-bottom: 1px rgb(128, 128, 128) solid;
+    background: none;
+    outline-style: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "tetai-2";
+}
+.m_btn{
+    margin:5px auto;
+    width: 90px;
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border-color: #933D3D;
+    font-size: 20px;
+    color: #9b4545;
+    font-family: "tetai-2";
+}
+.wrap_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin:5px auto;
+}
+.m_btn:hover{
+    background: #aa4a4a;
+    color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+.warning{
+    display: block;
+    width: 200px;
+    margin:5px auto;
+}
+/*購買資訊*/
+.member_history{
+    position: relative;
+    color: #9b4545;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.history_detail{
+    position: relative;
+    margin:20px auto;
+    width: 90%;
+    height:170px ;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    background: rgba(170, 78, 78, 0.3); 
+    box-shadow: 9px 9px 5px rgba(114, 114, 114, 0.5);
+}
+.history_pic{
+    position: relative;
+    padding-bottom: 5px;
+    margin: 20px;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    float: left;
+}
+.history_pic>img{
+    border-radius: 7px;
+}
+.history_text{
+    position: relative;
+    padding-top: 20px;
+    margin: 10px 30px;
+    width: 200px;
+    height:140px;
+    float: left;
+    font-size: 20px;
+    color:#7c3232 ;
+
+}

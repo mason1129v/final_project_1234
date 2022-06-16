@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'tetai-2';
+    src: url('../font/tetai-2.ttf') format("truetype");
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    animation:fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-button{
+    background: transparent;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track-piece{
+    background: rgb(155, 152, 152);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: lightgray;
+}

@@ -1,0 +1,56 @@
+body{
+    background-blend-mode: multiply;
+    background-image: url("../img/about_secpic.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "tetai-2";
+}
+.intro_zone{
+    width: 1200px;
+    height: 650px;
+    margin:155px auto 50px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+.logoback{
+    position: relative;
+    height: 650px;
+    margin: 0px 250px;
+    opacity: 0.4;
+    z-index: -1;
+}
+.mute{
+    position:fixed;
+    top:155px;
+    left:200px;
+    border-radius: 8px;
+    width: 150px;
+    font-size: 28px;
+    font-family: "tetai-2";
+    border: none;
+    padding: 5px;
+    outline: medium;
+    transition: 0.5s;
+}
+.mute:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.intro_title{
+    font-size: 50px;
+    margin: -620px 70px;
+}
+.intro_content{
+    font-size: 28px;
+    margin:650px 70px;
+    line-height: 36px;
+    text-shadow: 0 0 5px gray;
+}
+.comp_name{
+    text-align: right;
+    font-size: 32px;
+    margin: -600px 200px;
+    text-shadow: 0 0 5px gray;
+}

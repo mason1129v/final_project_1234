@@ -1,0 +1,65 @@
+/*FOOTER*/
+.last_container{
+    width: 100%;
+    position: relative;
+    background-color: #fffcf9;
+}
+
+.lastbox{
+    padding: 30px;
+    margin:0px auto;
+    display: flex;
+    width: 45%;
+    height: 200px;
+}
+/*LOGO*/
+.lastrow1{
+    position: relative;
+    width: 180px;
+    height: 160px;
+    display: flex;
+    float :left;
+}
+
+.lastrow2{
+    position: relative;
+    width: 280px;
+    height: 80px;
+    display: flex;
+    float :left;
+    margin: 50px 30px;
+}
+/**/
+
+.lastrow13{
+    width: 300px;
+    }
+
+.foottitle{
+    font-size: 22px;
+    font-weight: bold;
+    color: #5c5a5a;
+    position: relative;
+    margin-left: 50px;
+    text-align: left;
+}
+.footdetail{
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: "tetai-2";
+    margin-left: 50px;
+    color: #747272;
+    text-align: left;
+}
+.footdetail>a{
+    text-decoration: none;
+    color: #747272;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    font-family: "tetai-2";
+    padding: 10px 0 10px 0;
+    color: #525252;
+    
+}

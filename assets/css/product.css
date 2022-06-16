@@ -1,0 +1,122 @@
+
+body{
+    background-blend-mode: multiply;
+    background-image: url("../img/about_secpic.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "tetai-2";
+}
+section{
+    width: 100%;
+    margin-top:125px;    
+    display: flex;
+    align-items: center;  
+}
+.all{
+    width:1600px;
+    margin: 0px auto;
+}
+.zone{
+    width:100%;
+    margin: 30px auto;
+    background-color: rgba(226, 178, 178, 0.8);
+    float: left;
+    border-radius: 8px;
+}
+.title{
+    font-size:50px;
+    margin:20px 150px 0px;
+}
+.title_jp{
+    font-size:30px;
+    margin-left: 20px;
+}
+.group{
+    margin:20px auto;
+    width: 1400px;
+}
+.area{
+    float: left;
+    margin:0px 15px 25px;
+    width: 320px;
+    height: 450px;
+    background-color: #ebd4c2;
+    border-radius: 8px;
+}
+.product_pic,.pn_p,.product_name:hover{
+    cursor: pointer;
+}
+.product_pic{
+    width: 300px;
+    height: 300px;
+    margin:10px;
+    border-radius: 8px;
+}
+.product_name{
+    font-size: 28px;
+    border:none;
+    background:none;
+    font-family: inherit;
+}
+.pn_p{
+    margin:5px auto;
+    text-align: center;
+    height: 41.6px;
+}
+.product_price{
+    font-size:26px;
+    margin:22px auto auto 74px;
+    float: left;
+}
+.product_sold{
+    font-size:20px;
+    margin:28px 70px auto auto ;
+    float:right;
+}
+/*滑動廣告*/
+#slide{
+	position:relative;
+	overflow:hidden;
+	height:533px;
+    border-radius: 8px;
+    margin:30px auto;
+}
+#slide ul{
+	position:absolute;
+	width:6400px;
+}
+#slide li{
+	float:left;
+	width:1600px;
+    height: 533px;
+	list-style-type:none;
+    border-radius: 8px;
+}
+#slide li img{
+    width: 100%;
+    height: 100%;
+}
+#prevBtn,#nextBtn{
+	opacity:.6;
+	transition:opacity .2s;
+	border:none;
+	background:none;
+}
+#prevBtn,#nextBtn:focus{
+	outline:none;
+}
+#prevBtn,#nextBtn:hover{
+	opacity:1;
+    cursor: pointer;
+}
+#prevBtn{
+	position:absolute;
+	top:257px;
+	left:20px;
+}
+#nextBtn{
+	position:absolute;
+	top:257px;
+	right:20px;
+}
